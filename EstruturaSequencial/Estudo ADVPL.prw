@@ -1,3 +1,5 @@
+//Depuração de programa, Estrutura de um programa, Tipos de funções
+
 //Devemos começar com #Include "totvs.ch"
 // Quando se cria uma função, primeiramente deve ser declarado a USER FUNCTION
 // As demais função pode ser também USER FUNCTION ou STATIC FUNCTION
@@ -6,4 +8,12 @@
 //dentro do nosso próprio escopo atual, ou seja, o registro que estamos programando atualmente.
 //Já o User Function é uma função que podemos utilizar para chamar outros registros que não precisa estar no mesmo escopo de 
 //desenvolvimento.
+
+//CRTL +F9 para copilar o programa
+// Não pode ter ninguém conectado quando estamos copilando, exemplo:
+// Se alguém tiver conectado no Protheus não irá dar certo de copilar.
+// Modo Debug ou Depuração, utilizamos a tecla F5
+
+// ADD TO WATCH é para analisar uma variável em específica
+//trocando o conteúdo de uma variável: Pasta ir na opção (DEBUG CONSOLE) >___________
 
