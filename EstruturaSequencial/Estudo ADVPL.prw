@@ -17,3 +17,5 @@
 // ADD TO WATCH é para analisar uma variável em específica
 //trocando o conteúdo de uma variável: Pasta ir na opção (DEBUG CONSOLE) >___________
 
+// Para quebra de linha utilize ; para continuar o script quando o comando é muito grande.
+
