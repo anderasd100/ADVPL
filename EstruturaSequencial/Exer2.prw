@@ -1,23 +1,17 @@
-#INCLUDE "totvs.ch" 
-#INCLUDE "protheus.ch"
-user function Entradn() 
-// Declaração de variáveis
+#INCLUDE "totvs.ch"
+//-------------------------------------------------------------------
+/*/{Protheus.doc} function
+Faça um Programa que peça um número e então mostre a mensagem
+ O número informado foi [número].
+@author  Anderson Abreu Rabelo
+@since   18/02/2023
+@version 1.0
+/*/
+//-------------------------------------------------------------------
+User Function pedirn ()
 Local num1 := 0
-Local Coperacao := ""
-Local result := 0
 
-// Desenvolvimento do programa
 num1 := Val(FwInputBox("Digite um número: "))
+Alert("O número digitado é: "+cValToChar(num1))
 
-if Coperacao == "+"
-    result := Fsoma(num1,num2)
-ENDIF
-//Encerramento
-Alert("O resultado da operação é: "+ cValToChar(result))
-RETURN()
-
-
- Static Function Fsoma(n1,n2)
-        Local result := n1+n2
- Return (result)
-
+Return()
