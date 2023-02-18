@@ -19,3 +19,17 @@
 
 // Para quebra de linha utilize ; para continuar o script quando o comando é muito grande.
 
+/*/TIPOS DE FUNCTION:
+
+Function MatA100()
+Este tipo de função é restrita somente a area de desenvolvimento da equipe Protheus (Totvs)
+Não podemos executar!
+
+Main Function()
+É outro tipo de função especial do ADVPL incorporado para permitir tratamentos diferenciados na aplicação ERP.
+
+
+User Function()
+
+Static Function()
+/*/
