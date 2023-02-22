@@ -12,7 +12,7 @@ User Function dobroquadrado()
      Local larg := 0
      Local area := 0
     
-    compri := val(FwInputBox("Informe a media do comprimento: "))
+    compri := val(FwInputBox("Informe a medida do comprimento: "))
     larg := val(FwInputBox("Informe a medida da largura: "))
     area := (compri*larg)
     Alert("O dobro da área do quadrado é: "+cValToChar(area*area))
