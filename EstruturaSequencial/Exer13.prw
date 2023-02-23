@@ -18,3 +18,7 @@ horas_trabmes :=val(FwInputBox("Informe o número de horas trabalhada ao mês: "))
 totalsalario :=(horas_trabmes*horas)
 Alert("Total do seu salário é: R$"+cValToChar(totalsalario))
 RETURN()
+
+//ctrl+B = Esconde a barra lateral
+//ctrl+j= esconde a barra de baixo
+//ctrl+p = lista todos os programas
