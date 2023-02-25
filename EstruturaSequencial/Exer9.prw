@@ -24,12 +24,12 @@ vetor, array, matriz: Mesma coisa
 #INCLUDE 'protheus.ch'
 
 User function testedata()
-dData := CTOD("22/02/2023")
-if dDATABASE == dData
-Alert("É igual!")
-else
-   Alert("Não é igual!")
-endif
+	dData := CTOD("22/02/2023")
+	if dDATABASE == dData
+		Alert("É igual!")
+	else
+		Alert("Não é igual!")
+	endif
 
 RETURN()
 
