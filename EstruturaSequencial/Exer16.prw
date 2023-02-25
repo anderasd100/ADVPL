@@ -8,26 +8,23 @@ Calculadora
 /*/
 //-------------------------------------------------------------------
 User Function calccompleta()
-    Local n1 := 0
-    Local n2 := 0
-    Local operacao := ""
-    Local result := 0
+	Local n1 := 0
+	Local n2 := 0
+	Local result := ""
 
-    n1 := Val(FwInputBox("Informe o primeiro número: "))
-    n2 := Val(FwInputBox("Informe o segundo número: "))
-    operacao := Val(FwInputBox("Escolha a operação desejada (+, -, *, /)"))
-    if operacao == "+"
-        Alert("O resultado da soma é: "+cValToChar(n1+n2))
-    Endif
-     if operacao == "-"
-        Alert("O resultado da subtração é: "+cValToChar(n1-n2))
-    Endif
-     if operacao == "*"
-        Alert("O resultado da multiplicação é: "+cValToChar(n1*n2))
-    Endif
-     if operacao == "/"
-        Alert("O resultado da divisão é: "+cValToChar(n1/n2))
-    Endif
-
-Return()
-      
+	n1 := Val(FwInputBox("Informe o primeiro número: "))
+	n2 := Val(FwInputBox("Informe o segundo número: "))
+	result := FwInputBox("Escolha a operação desejada (+, -, *, /)")
+	if result == "+"
+		Alert("O resultado da soma é: "+cValToChar(n1+n2))
+	Endif
+	if result == "-"
+		Alert("O resultado da subtração é: "+cValToChar(n1-n2))
+	Endif
+	if result == "/"
+		Alert("O resultado da divisão é: "+cValToChar(n1/n2))
+	Endif
+	if result == "*"
+		Alert("O resultado da multiplicação é: "+cValToChar(n1*n2))
+	Endif
+		Return()

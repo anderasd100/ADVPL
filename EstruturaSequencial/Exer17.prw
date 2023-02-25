@@ -22,6 +22,6 @@ User Function intreal()
     metseg := (nint2/2)
     dobropri := (nint*2)
     Alert("Dobro do primeiro com metade do segundo: "+cValToChar(dobropri/metseg)+;
-        "a soma do triplo do primeiro com o terceiro: "+cValToChar(nint*3 + nreal )+;
-        "o terceiro elevado ao cubo: "+cValToChar(nreal*nreal*nreal))
+        Chr(10)+ "A soma do triplo do primeiro com o terceiro: "+cValToChar(nint*3 + nreal )+;
+        Chr(10)+ "O terceiro elevado ao cubo: "+cValToChar(nreal*nreal*nreal))
 Return ()

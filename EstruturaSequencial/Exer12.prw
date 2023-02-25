@@ -1,4 +1,4 @@
-#INCLUDE "totvs.ch"
+#include "totvs.ch"
 //-------------------------------------------------------------------
 /*/{Protheus.doc} function
 $ : Comparação de Substrings (contido em)
