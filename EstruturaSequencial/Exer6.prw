@@ -6,7 +6,7 @@ Faça um Programa que peça o raio de um círculo, calcule e mostre sua área.
 @since   18/02/2023
 @version 1.0
 /*/
-//-------------------------------------------------------------------
+//--------------------------------------------------------------------
 User Function raiocirculo()
 Local raio := 0
 Local pi := 3.14
