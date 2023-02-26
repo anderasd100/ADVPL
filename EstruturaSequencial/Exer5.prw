@@ -7,7 +7,7 @@ Faça um Programa que converta metros para centímetros.
 @since   18/02/2023
 @version 1.0
 /*/
-//-------------------------------------------------------------------
+//--------------------------------------------------------------------
 User Function convertmc()
 Local metro := 0
 Local centimetro := 0
