@@ -7,7 +7,7 @@ Calcule e mostre o total do seu salário no referido mês.
 @since   22/02/2023
 @version 1.0
 /*/
-//-------------------------------------------------------------------
+//--------------------------------------------------------------------
 User function salario()
 Local horas := 0
 Local horas_trabmes := 0
