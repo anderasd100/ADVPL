@@ -6,7 +6,7 @@ Faça um Programa que calcule a área de um quadrado,
 @since   22/02/2023
 @version 1.0
 /*/
-//-------------------------------------------------------------------
+//--------------------------------------------------------------------
 User Function dobroquadrado()
      Local compri := 0
      Local larg := 0
