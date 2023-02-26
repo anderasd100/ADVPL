@@ -9,8 +9,6 @@ Para mulheres: (62.1*h) - 44.7
 @version 1.0
 /*/
 //-------------------------------------------------------------------
-// Testar se ADVPl é case sentive , sim ou não?
-//-------------------------------------------------------------------
 User function althm()
 	Local sexo := ""
 	Local altm := 0
