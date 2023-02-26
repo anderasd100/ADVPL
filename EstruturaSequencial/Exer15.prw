@@ -6,7 +6,7 @@ Faça um Programa que peça a temperatura em graus Celsius, transforme e mostre em
 @since   24/02/2023
 @version 1.0
 /*/
-//-------------------------------------------------------------------
+//--------------------------------------------------------------------
 User Function graufah()
   Local tempcel := 0
   Local grausfah :=0
