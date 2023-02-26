@@ -19,7 +19,7 @@ Obs.: Salário Bruto - Descontos = Salário Líquido.
 @since   26/02/23
 @version 1.0
 /*/
-//-------------------------------------------------------------------
+//--------------------------------------------------------------------
 User Function salariodesc()
 Local vlrhora := 0
 Local vlrhorames := 0
