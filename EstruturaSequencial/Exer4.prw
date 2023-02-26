@@ -7,7 +7,7 @@ Faça um Programa que peça as 4 notas bimestrais e mostre a média.
 @since   18/02/2023
 @version 1.0
 /*/
-//-------------------------------------------------------------------
+//--------------------------------------------------------------------
 User Function medianotas()
 Local n1 := 0
 Local n2 := 0
