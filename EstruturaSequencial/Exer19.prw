@@ -12,27 +12,24 @@ Para mulheres: (62.1*h) - 44.7
 // Testar se ADVPl é case sentive , sim ou não?
 //-------------------------------------------------------------------
 User function althm()
-    Local sexo := ""
-    Local altm := 0
-    Local calh := 0
-    Local calm := 0
-
-
-    sexo := Val(FwInputBox("Informe seu sexo: M para masculino ou F para feminino: "))
-    if sexo == "M" //.or. "m"
-        Alert("Sexo Masculino informado!")
-    Endif
-    // alth := Val(FwInputBox("Informe sua altura: "))
-    // if sexo == "M" //.or. "m"
-    //     calh:=((72.7*alth)-58)
-    //     Alert("Conforme a altura informada, seu peso ideal é: "+cValToChar(calh))
-    // Endif
-    // if sexo =="F" //.or. "f"
-    //     Alert("Sexo Feminino informado!")
-    // Endif
-    // altm := Val(FwInputBox("Informe sua altura: "))
-    // if sexo =="F" //.or. "f"
-    //     calm:=((62.1*altm)-44.7)
-    //     Alert("Conforme a altura informada, seu peso ideal é: "+cValToChar(calm))
-    // Endif
-Return()
+	Local sexo := ""
+	Local altm := 0
+	Local calh := 0
+	Local calm := 0
+	sexo := FwInputBox("Informe seu sexo: M para masculino ou F para feminino: ")
+	if sexo == "M" .or. sexo =="m"
+		Alert("Sexo Masculino informado!")
+		alth := Val(FwInputBox("Informe sua altura: "))
+		calh:=((72.7*alth)-58)
+		Alert("Conforme a altura informada, seu peso ideal é: "+cValToChar(calh))
+	Endif
+	if sexo =="F" .or. sexo == "f"
+		Alert("Sexo Feminino informado!")
+		altm := Val(FwInputBox("Informe sua altura: "))
+		calm:=((62.1*altm)-44.7)
+		Alert("Conforme a altura informada, seu peso ideal é: "+cValToChar(calm))
+	Endif
+	if sexo <>"F" .and. sexo <>"f" .and. sexo <>"M" .and. sexo <>"m"
+		Alert("Sexo informado não encontrado!!!!!")
+        Endif
+		Return(sexo)
