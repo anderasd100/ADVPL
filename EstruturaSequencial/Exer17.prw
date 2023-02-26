@@ -9,7 +9,7 @@ Faça um Programa que peça 2 números inteiros e um número real. Calcule e mostre:
 @since   24/02/2023
 @version 1.0
 /*/
-//-------------------------------------------------------------------
+//--------------------------------------------------------------------
 User Function intreal()
     Local nint := 0
     Local nint2 := 0
