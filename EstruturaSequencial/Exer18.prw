@@ -6,7 +6,7 @@ Tendo como dados de entrada a altura de uma pessoa, construa um algoritmo que ca
 @since   24/02/2023
 @version 1.0
 /*/
-//--------------------------------------------------------------------
+//---------------------------------------------------------------------
 User Function pesoideal()
     Local peso :=  0
     Local formu := 0
