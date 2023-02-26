@@ -9,7 +9,7 @@ que custam R$ 80,00. Informe ao usuário a quantidades de latas de tinta a serem 
 @since   26/02/2023
 @version 1.0
 /*/
-//-------------------------------------------------------------------
+//--------------------------------------------------------------------
 User Function tinta()
 	Local tamp := 0
 	Local latatinta := 0
