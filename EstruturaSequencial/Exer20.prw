@@ -12,7 +12,7 @@ Toda vez que ele traz um peso de peixes maior que o estabelecido pelo regulament
 @since   26/02/2023
 @version 1.0
 /*/
-//--------------------------------------------------------------------
+//---------------------------------------------------------------------
 User function joaopesc()
 	Local pesopeixe := 0
 	Local calc := 0
