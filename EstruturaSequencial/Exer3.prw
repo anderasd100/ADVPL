@@ -6,7 +6,7 @@ Faça um Programa que peça dois números e imprima a soma.
 @since   18/02/2023
 @version 1.0
 /*/
-//-------------------------------------------------------------------
+//--------------------------------------------------------------------
 User Function lern()
 Local num1 := 0
 Local num2 := 0
