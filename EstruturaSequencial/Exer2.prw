@@ -7,7 +7,7 @@ Faça um Programa que peça um número e então mostre a mensagem
 @since   18/02/2023
 @version 1.0
 /*/
-//-------------------------------------------------------------------
+//--------------------------------------------------------------------
 User Function pedirn ()
 Local num1 := 0
 
